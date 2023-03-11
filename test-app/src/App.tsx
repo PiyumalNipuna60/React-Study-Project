@@ -6,6 +6,10 @@ import './App.css';
 
 export default class App extends Component{
 
+  componentDidMount(): void {
+    console.log("Hay semsy kella");
+  }
+
 render(): React.ReactNode {
   return (
     <div className="App">
