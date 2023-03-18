@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
+import About from './pages/About/About';
+import Contact from './pages/Contact/Contact';
+import Home from './pages/Home';
 
 
 
@@ -11,12 +14,12 @@ export default class App extends Component{
 
 render() {
   return (
-    <div className='bg-orange-200 min-h-screen'>
-      <h1 className='text-center text-red-600'>Fuck You..!</h1>
-      <h2 className='text-center text-cyan-500'>Fuck You..!</h2>
-      <h3 className='text-center text-blue-500'>Fuck You..!</h3>
-      <h4 className='text-center text-lime-500'>Fuck You..!</h4>
+    <div className=''>
+    <Home/>
+    <About/>
+    <Contact/>
     </div>
+
     
   );
 }
