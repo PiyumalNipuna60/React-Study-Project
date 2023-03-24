@@ -10,7 +10,17 @@ module.exports = {
             100: "#485468",
             50: "#bfd2f2",
           },
+
+          tes:{
+            200:"#00ff40",
+            100:"#40ff00",
+            50 : "#80ff00",
+            10:"#bfff00",
+          },
+
+          main:"#ff0000",
         },
+
       },
       fontFamily: {
         'babylonica': ['Babylonica', 'cursive'],
