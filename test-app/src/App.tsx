@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
+import Content from "./components/Content";
 import Counter from "./components/Counter";
 import About from "./pages/About";
 import Contact from "./pages/Contact/Contact";
@@ -15,6 +16,7 @@ export default class App extends Component {
     return (
       <div className="text-center ">
         {/* <Counter /> */}
+        <Content />
       </div>
     );
   }

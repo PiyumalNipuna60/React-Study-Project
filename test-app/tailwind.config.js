@@ -12,6 +12,11 @@ module.exports = {
           },
         },
       },
+      fontFamily: {
+        'babylonica': ['Babylonica', 'cursive'],
+        'fira-sans': ['Fira Sans', 'sans-serif'],
+        'heading': ['Play', 'sans-serif']
+      }
     },
   },
   plugins: [],
