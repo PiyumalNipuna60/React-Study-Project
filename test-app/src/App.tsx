@@ -14,7 +14,7 @@ export default class App extends Component {
   render() {
     return (
       <div className="text-center ">
-        <Counter />
+        {/* <Counter /> */}
       </div>
     );
   }
