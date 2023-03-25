@@ -1,5 +1,6 @@
 import { type } from 'os'
 import React, { Component } from 'react'
+import Tag from '../Tag';
 
 type PostProp={
     title:string;
@@ -19,18 +20,10 @@ export default class Post extends Component<PostProp,PostState> {
         </p>
 
         <span className='mt-3 flex space-x-3 w-full'>
-         <span className='  border border-slate-500 rounded-2xl px-6 py-2' >
-         <h6>Tag 1</h6>
-         </span>
-
-         <span className='  border border-slate-500 rounded-2xl px-6 py-2' >
-         <h6>Tag 1</h6>
-         </span>
+         {this.props.tags.map((tagText)=>
+            <Tag text={tagText}/>
+            )}
     
-
-         <span className='  border border-slate-500 rounded-2xl px-6 py-2' >
-         <h6>Tag 1</h6>
-         </span>
         </span>
 
        </div>
