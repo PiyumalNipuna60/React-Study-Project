@@ -1,5 +1,5 @@
-import { type } from 'os'
 import { Component } from 'react'
+import Header from '../../components/Header';
 import Post from '../../components/Post'
 
 
@@ -66,6 +66,8 @@ export default class Home extends Component <HomeProps,homeState>{
 
   render() {
     return (
+     <>
+     <Header />
       <div className='p-4'>
 
 {this.state.postList.map((post,index)=>(
@@ -94,6 +96,7 @@ export default class Home extends Component <HomeProps,homeState>{
 
 
       </div>
+     </>
     );
   }
 }
