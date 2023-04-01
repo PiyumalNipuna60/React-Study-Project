@@ -12,7 +12,7 @@ export default class Header extends Component {
     const normalLink = "cursor-pointer";
 
     return (
-        <div className="bg-accent-tes-200 h-13 w-full text-black fixed top-0 p-4">
+        <div className="bg-accent-tes-200 h-13 w-full text-black fixed top-0 p-4 z-10">
         <div className="w-full h-full">
           <div className="flex w-full h-full ">
             <div className="w-11/12 ">

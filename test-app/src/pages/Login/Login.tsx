@@ -1,7 +1,7 @@
 import { Button, TextField } from '@mui/material'
 import React, { Component } from 'react'
 
-export default class Login extends Component {
+export default class login extends Component {
   render() {
     return (
       <div className='p-6'>
