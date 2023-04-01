@@ -21,7 +21,7 @@ export default class App extends Component {
         <Content />
         {/* <Header /> */}
 
-        <Login />
+        {/* <Login /> */}
       </div>
     );
   }
